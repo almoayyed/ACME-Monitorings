@@ -4,7 +4,7 @@ Automated Monitoring Solutions (Lambda + SNS + Python)
 
 ```
 module "ACME-Monitoring" {
-    source = "github.com/almoayyed/ACME-Monitoring/ACME-SystemPerformance-Monitoring"
+    source = "github.com/almoayyed/ACME-Monitorings/ACME-SystemPerformance-Monitoring"
     
     # ACME-AssignAlarm-EC2
     sns_topic_name = "ACME-AssignAlarm-EC2"
